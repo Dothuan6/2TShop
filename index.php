@@ -15,7 +15,17 @@
 </head>
 
 <body>
-    <h1 class="p-3 text-center text-white bg-danger">Helo</h1>
+    <div class="wrapper">
+        <div class="navigation-bar">
+            <div class="container">
+                <!-- logo -->
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo">
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
 
