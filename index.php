@@ -15,7 +15,28 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+    .section-product-cards .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev {
+        width: 50px;
+        text-align: center;
+        background: greenyellow;
+        color: fff;
+        line-height: 40px;
+        position: absolute;
+        outline: none;
+    }
 
+    .section-product-cards .owl-carousel .owl-nav button.owl-next {
+        right: 0;
+        top: 150px;
+    }
+
+    .section-product-cards .owl-carousel .owl-nav button.owl-prev {
+        left: 0;
+        top: 150px;
+    }
+    </style>
 </head>
 
 <body>
@@ -156,31 +177,9 @@
                     <h3 class="heading">last product</h3>
                 </div>
 
-                <div class="section-product-cards carousel slide" id="carouselExample">
-                    <div class="carousel-inner">
-                        <div class="product-card carousel-item active">
-                            <div class="product-image">
-                                <img src="images/sliders/slider.4.jpg" alt="product name">
-                            </div>
-                            <!-- product hover content -->
-                            <div class="card-contents">
-                                <button type="button" class="btn btn-outline cart-btn bg-warning">
-                                    <i class="fas fa-cart-plus"></i>
-                                </button>
-                            </div>
-                            <!-- detail -->
-                            <div class="product-detail">
-                                <h5 class="product-name">
-                                    Mecedes
-                                </h5>
-                                <p class="product-price">
-                                    <small class="text-danger"><s>1.000 $</s></small>
-                                    <span class="text-success ms-3">50.000 $</span>
-                                </p>
-
-                            </div>
-                        </div>
-                        <div class="product-card carousel-item active">
+                <div class="section-product-cards">
+                    <div class="owl-carousel">
+                        <div class="product-card">
                             <div class="product-image">
                                 <img src="images/sliders/slider.4.jpg" alt="product name">
                             </div>
@@ -203,7 +202,7 @@
 
                             </div>
                         </div>
-                        <div class="product-card carousel-item active">
+                        <div class="product-card">
                             <div class="product-image">
                                 <img src="images/sliders/slider.4.jpg" alt="product name">
                             </div>
@@ -226,7 +225,7 @@
 
                             </div>
                         </div>
-                        <div class="product-card carousel-item">
+                        <div class="product-card">
                             <div class="product-image">
                                 <img src="images/sliders/slider.4.jpg" alt="product name">
                             </div>
@@ -249,17 +248,124 @@
 
                             </div>
                         </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="images/sliders/slider.4.jpg" alt="product name">
+                            </div>
+
+                            <!-- product hover content -->
+                            <div class="card-contents">
+                                <button type="button" class="btn btn-outline cart-btn bg-warning">
+                                    <i class="fas fa-cart-plus"></i>
+                                </button>
+                            </div>
+                            <!-- detail -->
+                            <div class="product-detail">
+                                <h5 class="product-name">
+                                    Mecedes
+                                </h5>
+                                <p class="product-price">
+                                    <small class="text-danger"><s>1.000 $</s></small>
+                                    <span class="text-success ms-3">50.000 $</span>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="images/sliders/slider.4.jpg" alt="product name">
+                            </div>
+
+                            <!-- product hover content -->
+                            <div class="card-contents">
+                                <button type="button" class="btn btn-outline cart-btn bg-warning">
+                                    <i class="fas fa-cart-plus"></i>
+                                </button>
+                            </div>
+                            <!-- detail -->
+                            <div class="product-detail">
+                                <h5 class="product-name">
+                                    Mecedes
+                                </h5>
+                                <p class="product-price">
+                                    <small class="text-danger"><s>1.000 $</s></small>
+                                    <span class="text-success ms-3">50.000 $</span>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="images/sliders/slider.4.jpg" alt="product name">
+                            </div>
+
+                            <!-- product hover content -->
+                            <div class="card-contents">
+                                <button type="button" class="btn btn-outline cart-btn bg-warning">
+                                    <i class="fas fa-cart-plus"></i>
+                                </button>
+                            </div>
+                            <!-- detail -->
+                            <div class="product-detail">
+                                <h5 class="product-name">
+                                    Mecedes
+                                </h5>
+                                <p class="product-price">
+                                    <small class="text-danger"><s>1.000 $</s></small>
+                                    <span class="text-success ms-3">50.000 $</span>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="images/sliders/slider.4.jpg" alt="product name">
+                            </div>
+
+                            <!-- product hover content -->
+                            <div class="card-contents">
+                                <button type="button" class="btn btn-outline cart-btn bg-warning">
+                                    <i class="fas fa-cart-plus"></i>
+                                </button>
+                            </div>
+                            <!-- detail -->
+                            <div class="product-detail">
+                                <h5 class="product-name">
+                                    Mecedes
+                                </h5>
+                                <p class="product-price">
+                                    <small class="text-danger"><s>1.000 $</s></small>
+                                    <span class="text-success ms-3">50.000 $</span>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="images/sliders/slider.4.jpg" alt="product name">
+                            </div>
+
+                            <!-- product hover content -->
+                            <div class="card-contents">
+                                <button type="button" class="btn btn-outline cart-btn bg-warning">
+                                    <i class="fas fa-cart-plus"></i>
+                                </button>
+                            </div>
+                            <!-- detail -->
+                            <div class="product-detail">
+                                <h5 class="product-name">
+                                    Mecedes
+                                </h5>
+                                <p class="product-price">
+                                    <small class="text-danger"><s>1.000 $</s></small>
+                                    <span class="text-success ms-3">50.000 $</span>
+                                </p>
+
+                            </div>
+                        </div>
+
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+
                 </div>
             </section>
         </div>
@@ -269,11 +375,11 @@
     <!-- js -->
     <script src="js/jquery.js"></script>
     <script src="js/jquery.bxslider.min.js"></script>
-    <script src="js/owl.carousel.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

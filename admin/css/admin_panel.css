@@ -1,0 +1,10 @@
+header{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #c72c41;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
