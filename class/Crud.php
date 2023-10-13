@@ -23,7 +23,14 @@ class Crud extends Db{
 
     }catch(PDOException $e){
         echo "Error: ". $e->getMessage();
+    } 
     }
-}
+    public function get(){
+        $sql = "select * from category";
+        $stmt = $this->db->prepare($sql);
+        $stmt->execute();
+        $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        return $result;
+    }
 } 
 ?>
