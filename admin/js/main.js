@@ -19,5 +19,9 @@ $(document).ready(function(){
     $('.menu-btn').show();
     });
 
+    $('.add_category').click(function(){
+        $('#exampleModal').modal('show');
+        $('.modal-title').val('save');
+    });
     
 });
